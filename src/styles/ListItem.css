@@ -1,0 +1,77 @@
+.list-items {
+    width: 90%;
+    height: 70%;
+    overflow: auto;
+}
+
+.ListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted slategray;
+    line-height: 2;
+}
+
+.ListItem>span {
+    width: 70px;
+    opacity: 0;
+}
+
+.ListItem:hover>span {
+    opacity: 1;
+}
+
+textarea {
+    margin-left: 20px;
+    width: 70%;
+    background: transparent;
+    border: none;
+    font-family: 'Mali', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1.1px;
+    line-height: 1;
+}
+
+button {
+    font-family: 'Mali', sans-serif;
+    font-size: 0.9em;
+    background: transparent;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.status-btn {
+    text-align: left;
+    width: 80%;
+}
+
+.status-font {
+    color: black;
+}
+
+.status,
+.edit,
+.remove,
+.save,
+.cancel {
+    color: darkcyan;
+}
+
+.add {
+    color: greenyellow;
+    position: relative;
+    top: 2px;
+}
+
+.edit:hover,
+.save:hover {
+    color: green;
+}
+
+.cancel:hover,
+.remove:hover {
+    color: red;
+}

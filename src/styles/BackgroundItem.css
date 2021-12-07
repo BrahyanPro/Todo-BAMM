@@ -1,0 +1,74 @@
+.background-items {
+    width: 85%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 90px;
+    height: 160px;
+    min-width: 90px;
+    min-height: 160px;
+    background: transparent;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 1px 1px 2px 1px darkslategray;
+    transform: rotate(340deg);
+}
+
+.phone-camera1 {
+    width: 23px;
+    height: 4px;
+    background: black;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.phone-camera2 {
+    width: 23px;
+    height: 4px;
+    background: black;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.phone-screen {
+    width: 93%;
+    height: 95%;
+    border-radius: 0 0 5px 5px;
+    background: black;
+}
+
+.passport {
+    transform: rotate(20deg);
+}
+
+.passport-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 150px;
+    min-width: 110px;
+    min-height: 150px;
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: midnightblue;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 2px 1px darkslategrey;
+}
+
+.passport-globe {
+    font-size: 3em;
+}

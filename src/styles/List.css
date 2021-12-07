@@ -1,0 +1,75 @@
+.List {
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
+    height: 65vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px slategray;
+    position: relative;
+    top: 10%;
+}
+
+.list-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.list-form {
+    width: 100%;
+    background: #343a3f;
+}
+
+.alert-message {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-form {
+    width: 100%;
+    display: flex;
+    padding: 5px 0;
+}
+
+.edit-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0 10px 0;
+}
+
+input {
+    margin-left: 20px;
+    border: 1px solid slategray;
+    font-size: 0.9rem;
+}
+
+.popup-alert {
+    padding: 10px;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.alert-btn {
+    margin-bottom: 5px;
+    padding: 5px;
+    background: lightgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+}
