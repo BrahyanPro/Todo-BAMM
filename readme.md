@@ -1,3 +1,3 @@
 # Mi Todo app
 
-- Esta hecha en preact la verdad me gusta mucho preact jeje
+- Esta hecha en preact la verdad me gusta mucho preact jeje,
